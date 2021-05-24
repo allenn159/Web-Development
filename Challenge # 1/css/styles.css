@@ -1,0 +1,86 @@
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: hsl(0, 0%, 98%);
+}
+
+h1 {
+  margin: 0;
+}
+
+h3 {
+  color: hsl(234, 12%, 34%);
+  position: absolute;
+  left: 1.6em;
+}
+
+.master-container {
+}
+
+.top-container {
+  text-align: center;
+}
+
+.main-container {
+  display: flex;
+  align-items: center;
+  min-height: 50vh;
+  justify-content: center;
+}
+
+.left-container {
+  padding-right: 2em;
+}
+.middle-container {
+}
+.right-container {
+}
+
+.header-one {
+  color: hsl(229, 6%, 66%);
+  font-weight: 200;
+  margin-top: 50px;
+}
+
+.header-two {
+  color: hsl(234, 12%, 34%);
+  font-weight: 600px;
+}
+
+.intro {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  line-height: 2;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  width: 30%;
+}
+
+.supervisor {
+  background-color: white;
+  border-top: solid 4px;
+  border-color: hsl(180, 62%, 55%);
+  border-radius: 2%;
+  box-shadow: 4px 4px 10px 6px #e0e0eb;
+  height: 250px;
+  position: relative;
+  width: 350px;
+}
+
+.details {
+  color: hsl(229, 6%, 66%);
+  font-size: 15px;
+  position: absolute;
+  top: 3em;
+  left: 2em;
+}
+
+.supervisor-icon {
+  position: absolute;
+  top: 10em;
+  right: 2em;
+}
+
+@media screen (min-width: 600px) {
+  background-color: purple;
+}

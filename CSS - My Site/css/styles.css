@@ -1,0 +1,183 @@
+/**********************Tag Selectors**********************/
+body {
+  color: #40514E;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+
+}
+
+h1 {
+  color: #66BFBF;
+  font-family: 'Sacramento', cursive;
+  font-size: 5.625rem;
+  margin: 50px auto 0 auto;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: normal;
+  margin: 40px 0;
+
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a {
+  color: #11999E;
+  font-family: 'Merriweather', serif;
+}
+
+a:hover {
+  color: #EAF6F6;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #EAF6F6;
+  border-width: 8px;
+  width: 4%;
+  margin: 100px auto;
+}
+
+/**********************Class Selectors**********************/
+.top-container {
+  background-color: #f7f3e9;
+  position: relative;
+  padding-top: 100px;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 300px;
+  top: 40px;
+}
+
+.bottom-cloud {
+  position: absolute;
+  bottom: 300px;
+  left: 250px;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 20px 0 10px;
+}
+
+.contact-me {
+  margin-bottom: 60px;
+}
+
+.skill-row {
+  line-height: 2;
+  margin: 66.8px auto 103.8px auto;
+  text-align: left;
+  width: 40%;
+}
+
+.pro {
+  text-decoration: underline;
+}
+
+.profilepic {
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+
+}
+
+.profile-intro {
+  line-height: 2;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
+.htmlpic {
+  border-radius: 50%;
+  float: left;
+  margin-right: 30px;
+  width: 20%;
+}
+
+.csspic {
+  border-radius: 50%;
+  float: right;
+  margin-left: 30px;
+  width: 20%;
+}
+
+.footer-table {
+  border-spacing: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer-link {
+  text-decoration: none;
+
+}
+
+.copywrite {
+  bottom: 30px;
+  color: #EAF6F6;
+  font-size: 12px;
+  position: relative;
+
+}
+
+.btn {
+   background: #11CDD4;
+   background-image: -webkit-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -moz-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -ms-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -o-linear-gradient(top, #11CDD4, #11999E);
+   background-image: -webkit-gradient(to bottom, #11CDD4, #11999E);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 20px;
+   font-weight: 100;
+   padding: 12px;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.btn:hover {
+   background: #30E3CB;
+   background-image: -webkit-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -moz-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -ms-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -o-linear-gradient(top, #30E3CB, #2BC4AD);
+   background-image: -webkit-gradient(to bottom, #30E3CB, #2BC4AD);
+   -webkit-border-radius: 8px;
+   -moz-border-radius: 8px;
+   border-radius: 8px;
+   text-decoration: none;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+
+
+
+
+
+/**********************ID Selectors**********************/

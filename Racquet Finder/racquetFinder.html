@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Racquet Finder</title>
+  </head>
+  <body>
+    <script src="racquetObjects.js"></script>
+    <div class="mainContainer">
+      <div class="selectors">
+        <form action="">
+          <div class="brandName">
+            <input type="checkbox" id="babolat" value="Babolat" />
+            <label for="babolat">Babolat</label>
+            <input type="checkbox" id="wilson" value="Wilson" />
+            <label for="wilson">Wilson</label>
+          </div>
+          <div class="characteristics">
+            <input type="checkbox" id="power" value="Power" />
+            <label for="power">Power</label>
+            <input type="checkbox" id="control" value="Control" />
+            <label for="control">Control</label>
+            <input type="checkbox" id="popular" value="Popular" />
+            <label for="popular">Popular</label>
+          </div>
+          <input type="submit" value="Find" id="search" />
+        </form>
+      </div>
+      <div class="racquetContainer"></div>
+      <div class="bench"></div>
+    </div>
+    <script src="racquetFinder.js"></script>
+  </body>
+</html>
